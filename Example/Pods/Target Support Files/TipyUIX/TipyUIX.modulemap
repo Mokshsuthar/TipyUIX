@@ -1,0 +1,6 @@
+framework module TipyUIX {
+  umbrella header "TipyUIX-umbrella.h"
+
+  export *
+  module * { export * }
+}

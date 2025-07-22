@@ -1,0 +1,1117 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09AA19BABD2891343C8AFACC2DED9BBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5B6CBB46A3379AF0A785C6035303B4 /* Foundation.framework */; };
+		09AF5F28328F1B2C471AC11A0551C7FB /* forceUpdateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D7730D53B6BE2F1B513B5179F8A44C /* forceUpdateModel.swift */; };
+		299303D887EF2D886AA31D88F65DC310 /* BlurBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD944C5C056475DF04B6402AD9027A97 /* BlurBackgroundView.swift */; };
+		2B49568DBF3F501902F1B5780798BBBD /* Weak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E2696C8511D27993F6B3817371639 /* Weak.swift */; };
+		30232BBBDBF5F3CF37E6B55282C5AB3A /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E95C4F34B176067656EDCC5E4C092 /* BlurView.swift */; };
+		328CDA2C4254A489DE44890CEFBCC494 /* TipyUIX-TipyUIXAssets in Resources */ = {isa = PBXBuildFile; fileRef = 4A09596BBF3AD63A0EBDD9D7FB13B3CA /* TipyUIX-TipyUIXAssets */; };
+		3C8939D9E54735C2B6D8011053AE15FC /* AppConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47D767D74C9B99DE3EF0987BA5B833C /* AppConfigure.swift */; };
+		48DBFF9E0BCDA5461D321889F2904741 /* RealmExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72162861D7F9E2FBC292B36F948DF7A4 /* RealmExtensions.swift */; };
+		4B8BD950A729B5E2937E72959D635FB4 /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EC87AE79B0AD9A1EF39287F6A6B903 /* ButtonExtension.swift */; };
+		54C35F9730D7DB7D20CD63B5E52BD3E9 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAB3A01DEDC5E2332C14C9C364637A7 /* DateExtensions.swift */; };
+		54F62431BC454B0649D1E49D04F04450 /* PassthroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C65C11F572A9DFB5B329C170D0859B1 /* PassthroughView.swift */; };
+		57B9B5DB74F5942A2EDB4597EFD27388 /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDE970E2FD8B9421C9FADE826024C17 /* BorderView.swift */; };
+		5CB436B08BB571900D7E0EE905DD95C5 /* Drop.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C0E3066E31DE931E2F0419E153415B /* Drop.swift */; };
+		5CD82FA1F2B21D4E9D5C1256807B7C19 /* HTMLWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A957BFDDC48421F59EEED6D9AE152A /* HTMLWebView.swift */; };
+		5F723F4F86D4E61C649CD2E4755B6801 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43EE2FA5F45F5A7BD4D16CE6E24E7251 /* UIViewControllerExtension.swift */; };
+		66B2BC04D6A49C3B1813B4C0D8F3B15D /* ToolTipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE6D7588E2BD85896D588D00DA04CF /* ToolTipManager.swift */; };
+		6827EFAE2F8159006332085B81535B8B /* Pods-TipyUIX_swiftui-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AAAD54651E1E3238431EB1DA284BF67 /* Pods-TipyUIX_swiftui-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6872C7D39746233228391396F34B759E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5B6CBB46A3379AF0A785C6035303B4 /* Foundation.framework */; };
+		6CD26CAE7D407BC49923FB6E676D5100 /* PassthroughWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B3DED06BD1AB78BB21851258BCB41 /* PassthroughWindow.swift */; };
+		7A01C77E23421FD1F26300EFB7F71627 /* Pods-TipyUIX_swiftui-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EA4AB5AFD51346943C67391ACB1913 /* Pods-TipyUIX_swiftui-dummy.m */; };
+		8383EB60310F308740A399CCF0DFEB38 /* UIdeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80627008A9DE7D7ECB3A1FB8BEACC351 /* UIdeviceExtensions.swift */; };
+		8FEB50B01AC3DB3598A56F1E3E194E28 /* ObservableObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BC1FF3CC5A8F96FA3D54B56F96DF2C /* ObservableObjectExtension.swift */; };
+		9344562ED5944A9A7D08EEDB670CC639 /* ColorsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D89A9B16DB1173E70D8116AF25F11B /* ColorsExtensions.swift */; };
+		9371C99F95D8CCABDF09D65D0C986EC9 /* ToolTipConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78CEB6EF61D6AC9CFD997BF333E13F3 /* ToolTipConfig.swift */; };
+		965897A53208514454D44D2CB31DD68D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8772A537883B17E00333CF94B61EA22 /* SwiftUI.framework */; };
+		97AF514FAC2C86A0D88A7E5E21581BCB /* HapticFeedbackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEB5725DA2F8E8F2A6017A207F52AD5 /* HapticFeedbackManager.swift */; };
+		99987DDC93FE3AC44B830FCE4B467A9A /* SwiftyUIX.h in Headers */ = {isa = PBXBuildFile; fileRef = C11A75D1916E96B2E2F172A2E4CD20DD /* SwiftyUIX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D72635753B1C318F56D8CB2DA407EC0 /* SwiftyUIX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA35B5CB69B05EF86A257898AB00B8E /* SwiftyUIX-dummy.m */; };
+		9E6FAC7E897097EB75B0F5E09CE85634 /* AnimationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE44ED48DD04B515D473B08467C2A56D /* AnimationContext.swift */; };
+		A5DBE03333748FD556B71886DAE7F4E1 /* windowNavigationButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF48CE48BFDDD730084F013CEFD34DA3 /* windowNavigationButtons.swift */; };
+		A6F45E7CF765E599107D6DF5E980964A /* UIscreenExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9FDFFF2D2B59F9FF76B450AD530CD4 /* UIscreenExtensions.swift */; };
+		ADA97B3E5B25F65813783A96827D1DEE /* firebaseExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536C5946A0F00651C018549BB7F06AD7 /* firebaseExtensions.swift */; };
+		B01E5780552217755803EC5BA0948F32 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B48A1AEDF25CF09A21C0B8821C9B32A /* UIApplicationExtension.swift */; };
+		B41B6DF03805587F90C4954B4711E663 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5B6CBB46A3379AF0A785C6035303B4 /* Foundation.framework */; };
+		B6B6F81CC4403A9B77F1F769CF8A7CA9 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A77D0E14905764E6F1B9613B48C90AA /* Presenter.swift */; };
+		BC37FCEFD4BDEDEE41D0BD3B8A2CAAC5 /* TooltipDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D0DF46FCB1DA156497123C1A8D50BA /* TooltipDataModel.swift */; };
+		BD9B5DCE4AF13B89D4FE9E095436E778 /* ThreadExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4E27E77A4CF3AC76F89FA146F0E4 /* ThreadExtensions.swift */; };
+		BF2EF77032A74F7AE13B1D1D88EEA043 /* TransprantBackgroud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C9A9DE6A4C6DFE897E6C39EE7996F48 /* TransprantBackgroud.swift */; };
+		C36A780BA0E394AE6FEE2211727DADF3 /* WindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84E010D6601EAF56C221B30AE369566 /* WindowViewController.swift */; };
+		C46CA3B2F5F02D6069EB4341BBC24236 /* SwiftyUIX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C95A49C5B4664A3CF7444DB3DB79C0B /* SwiftyUIX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7CEB74A877262625A494B3A4910D7D1 /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E444DB204A8538E7CC4BED775CADBBAB /* Animator.swift */; };
+		C8C2BDEA1B1A716E87A807B7B6DC4E71 /* DropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D2C18A191F5A1A549E38C65480AD60 /* DropView.swift */; };
+		CC0AE1435EDA0738A1221C04BCBCA990 /* ToolTipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E2C94CFBD6BE24A5E315A5C5A4A089 /* ToolTipView.swift */; };
+		D8CA6874B7B5F04D75950C26E6B7E86E /* NotificationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C667AD074E1AB926A98DBFF0E8BDC8B /* NotificationExtension.swift */; };
+		DA66B4158E3E74B52950B1F7EFEC3842 /* WindowExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661FE872A2783BFF187999A97CE90994 /* WindowExtensions.swift */; };
+		E2FF2E04A55CE8040672ACD23B20E54A /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E477B8A5AA72293045972206CD0353C0 /* DataExtensions.swift */; };
+		E3EB43764B0DEB33C2415E0A18D7A770 /* TipyUIX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A447452D1F911B78A1404DF4425179B /* TipyUIX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E45AC493FC21E4CA44A2D045CAC97DE8 /* Drops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79B22033A7D57E0C5DDE4BB9F1226D7C /* Drops.swift */; };
+		E7AEAEC95758DA55A6AA9B0C23E62800 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23CD01C593A681C9C77781A98B3923F /* ViewExtensions.swift */; };
+		F0C7EB65FAEE974CFC0E3213853948BF /* ForceUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B26DB8CE6F200423576512C74D7748 /* ForceUpdateViewController.swift */; };
+		F567B89418DDAC0F73B599F5698F2A82 /* Logs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5050B0C57A9F521A7B6B7972B617C0A5 /* Logs.swift */; };
+		F69F2CA2BF8B2337161FEE3FFB1B5C35 /* ForceUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E389C1817FCE7D3276734B7A944E3E7 /* ForceUpdateView.swift */; };
+		FB8AE2A1587B7126F9CCB6BF9085B9D5 /* TipyUIX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1969C810CA1E947ED65C6882688B3D6B /* TipyUIX-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01947025BD4CA21FF124F275BD064F30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4A41E906AE18E21D8F2D01DAD43F35C;
+			remoteInfo = TipyUIX;
+		};
+		9D77B2651A452701E94D245042F263DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8825E5BDAD447AF41F413B6CA0ABD1E0;
+			remoteInfo = SwiftyUIX;
+		};
+		AF8A9C1525C40DF0BA49AEBD97E0AD15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C391EB12691CF4EC5DC8F0EFA8C625ED;
+			remoteInfo = "TipyUIX-TipyUIXAssets";
+		};
+		B7D4E44CB2D585542BC2FE7056696F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8825E5BDAD447AF41F413B6CA0ABD1E0;
+			remoteInfo = SwiftyUIX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01AC4E27E77A4CF3AC76F89FA146F0E4 /* ThreadExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ThreadExtensions.swift; path = SwiftyUIX/Classes/Extensions/ThreadExtensions.swift; sourceTree = "<group>"; };
+		0B9FDFFF2D2B59F9FF76B450AD530CD4 /* UIscreenExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIscreenExtensions.swift; path = SwiftyUIX/Classes/Extensions/UIscreenExtensions.swift; sourceTree = "<group>"; };
+		0C1B3DED06BD1AB78BB21851258BCB41 /* PassthroughWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughWindow.swift; path = SwiftyUIX/Classes/ViewModifires/Drops/PassthroughWindow.swift; sourceTree = "<group>"; };
+		0DEB5725DA2F8E8F2A6017A207F52AD5 /* HapticFeedbackManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HapticFeedbackManager.swift; path = SwiftyUIX/Classes/ViewModifires/HapticFeedbackManager.swift; sourceTree = "<group>"; };
+		139862725BE584C2E4DC3E5F575233D6 /* Pods-TipyUIX_swiftui-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TipyUIX_swiftui-acknowledgements.markdown"; sourceTree = "<group>"; };
+		173BB3C9A67296C88DD6AD38CAB3966E /* TipyUIX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TipyUIX.modulemap; sourceTree = "<group>"; };
+		1969C810CA1E947ED65C6882688B3D6B /* TipyUIX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TipyUIX-dummy.m"; sourceTree = "<group>"; };
+		19EA4AB5AFD51346943C67391ACB1913 /* Pods-TipyUIX_swiftui-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TipyUIX_swiftui-dummy.m"; sourceTree = "<group>"; };
+		1A77D0E14905764E6F1B9613B48C90AA /* Presenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Presenter.swift; path = SwiftyUIX/Classes/ViewModifires/Drops/Presenter.swift; sourceTree = "<group>"; };
+		1AAAD54651E1E3238431EB1DA284BF67 /* Pods-TipyUIX_swiftui-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TipyUIX_swiftui-umbrella.h"; sourceTree = "<group>"; };
+		1F24A3276A9A4EA5A3ACAD4E77E05F58 /* TipyUIX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TipyUIX.release.xcconfig; sourceTree = "<group>"; };
+		21D89A9B16DB1173E70D8116AF25F11B /* ColorsExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorsExtensions.swift; path = SwiftyUIX/Classes/Extensions/ColorsExtensions.swift; sourceTree = "<group>"; };
+		2B48A1AEDF25CF09A21C0B8821C9B32A /* UIApplicationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIApplicationExtension.swift; path = SwiftyUIX/Classes/Extensions/UIApplicationExtension.swift; sourceTree = "<group>"; };
+		385934377A0DB868E107084056BDD189 /* ResourceBundle-TipyUIXAssets-TipyUIX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TipyUIXAssets-TipyUIX-Info.plist"; sourceTree = "<group>"; };
+		3C5B6CBB46A3379AF0A785C6035303B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E389C1817FCE7D3276734B7A944E3E7 /* ForceUpdateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ForceUpdateView.swift; path = SwiftyUIX/Classes/ViewModifires/ForceUpdate/ForceUpdateView.swift; sourceTree = "<group>"; };
+		43EE2FA5F45F5A7BD4D16CE6E24E7251 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtension.swift; path = SwiftyUIX/Classes/Extensions/UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		45B26DB8CE6F200423576512C74D7748 /* ForceUpdateViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ForceUpdateViewController.swift; path = SwiftyUIX/Classes/ViewModifires/ForceUpdate/ForceUpdateViewController.swift; sourceTree = "<group>"; };
+		49E16D0F38C31809FF40F54AE8F6C107 /* TipyUIX.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TipyUIX.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4A09596BBF3AD63A0EBDD9D7FB13B3CA /* TipyUIX-TipyUIXAssets */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "TipyUIX-TipyUIXAssets"; path = TipyUIXAssets.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A447452D1F911B78A1404DF4425179B /* TipyUIX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TipyUIX-umbrella.h"; sourceTree = "<group>"; };
+		4DC1B1FF6ED092EA5D875F6E9CFF052F /* SwiftyUIX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyUIX-Info.plist"; sourceTree = "<group>"; };
+		5050B0C57A9F521A7B6B7972B617C0A5 /* Logs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logs.swift; path = SwiftyUIX/Classes/Logs/Logs.swift; sourceTree = "<group>"; };
+		51E9C0B9D7FE29E7C3FBABB28F31BACE /* Pods-TipyUIX_swiftui-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TipyUIX_swiftui-Info.plist"; sourceTree = "<group>"; };
+		5269395D2F233698A82534717211849D /* Pods-TipyUIX_swiftui-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TipyUIX_swiftui-frameworks.sh"; sourceTree = "<group>"; };
+		536C5946A0F00651C018549BB7F06AD7 /* firebaseExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = firebaseExtensions.swift; path = SwiftyUIX/Classes/Extensions/ExtraExtensions/firebaseExtensions.swift; sourceTree = "<group>"; };
+		5CE6F9628054C6E3BD95560D3E8879F8 /* Pods-TipyUIX_swiftui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipyUIX_swiftui.debug.xcconfig"; sourceTree = "<group>"; };
+		5E339C36474263AD5F0165117074D497 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		62A957BFDDC48421F59EEED6D9AE152A /* HTMLWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTMLWebView.swift; path = SwiftyUIX/Classes/Views/HTMLWebView.swift; sourceTree = "<group>"; };
+		661FE872A2783BFF187999A97CE90994 /* WindowExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowExtensions.swift; path = SwiftyUIX/Classes/Extensions/WindowExtensions.swift; sourceTree = "<group>"; };
+		66EC87AE79B0AD9A1EF39287F6A6B903 /* ButtonExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonExtension.swift; path = SwiftyUIX/Classes/Extensions/ButtonExtension.swift; sourceTree = "<group>"; };
+		6C667AD074E1AB926A98DBFF0E8BDC8B /* NotificationExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationExtension.swift; path = SwiftyUIX/Classes/Extensions/NotificationExtension.swift; sourceTree = "<group>"; };
+		6C9A9DE6A4C6DFE897E6C39EE7996F48 /* TransprantBackgroud.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransprantBackgroud.swift; path = SwiftyUIX/Classes/Views/TransprantBackgroud.swift; sourceTree = "<group>"; };
+		72162861D7F9E2FBC292B36F948DF7A4 /* RealmExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RealmExtensions.swift; path = SwiftyUIX/Classes/Extensions/ExtraExtensions/RealmExtensions.swift; sourceTree = "<group>"; };
+		755E2696C8511D27993F6B3817371639 /* Weak.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Weak.swift; path = SwiftyUIX/Classes/ViewModifires/Drops/Weak.swift; sourceTree = "<group>"; };
+		79B22033A7D57E0C5DDE4BB9F1226D7C /* Drops.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Drops.swift; path = SwiftyUIX/Classes/ViewModifires/Drops/Drops.swift; sourceTree = "<group>"; };
+		7C95A49C5B4664A3CF7444DB3DB79C0B /* SwiftyUIX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyUIX-umbrella.h"; sourceTree = "<group>"; };
+		7F1E95C4F34B176067656EDCC5E4C092 /* BlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = SwiftyUIX/Classes/Views/BlurView.swift; sourceTree = "<group>"; };
+		80627008A9DE7D7ECB3A1FB8BEACC351 /* UIdeviceExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIdeviceExtensions.swift; path = SwiftyUIX/Classes/Extensions/UIdeviceExtensions.swift; sourceTree = "<group>"; };
+		85362A4BB57565DCE773EF2F87ABD1DE /* SwiftyUIX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyUIX-prefix.pch"; sourceTree = "<group>"; };
+		8AA35B5CB69B05EF86A257898AB00B8E /* SwiftyUIX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyUIX-dummy.m"; sourceTree = "<group>"; };
+		8D6ABF556D766C8B3454004354B5C43F /* TipyUIX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TipyUIX-prefix.pch"; sourceTree = "<group>"; };
+		9233EB218F606BAB7E79FCB622BE3606 /* SwiftyUIX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyUIX.debug.xcconfig; sourceTree = "<group>"; };
+		93381D2F9E191FAD3D8D828FE150BCA9 /* TipyUIX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TipyUIX.debug.xcconfig; sourceTree = "<group>"; };
+		953A2D5279D19F560A6874605E030D7D /* TipyUIX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TipyUIX-Info.plist"; sourceTree = "<group>"; };
+		98E2C94CFBD6BE24A5E315A5C5A4A089 /* ToolTipView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToolTipView.swift; path = TipyUIX/Classes/ToolTipView.swift; sourceTree = "<group>"; };
+		9C65C11F572A9DFB5B329C170D0859B1 /* PassthroughView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughView.swift; path = SwiftyUIX/Classes/ViewModifires/Drops/PassthroughView.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7C0E3066E31DE931E2F0419E153415B /* Drop.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Drop.swift; path = SwiftyUIX/Classes/ViewModifires/Drops/Drop.swift; sourceTree = "<group>"; };
+		A7D0DF46FCB1DA156497123C1A8D50BA /* TooltipDataModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TooltipDataModel.swift; path = TipyUIX/Classes/TooltipDataModel.swift; sourceTree = "<group>"; };
+		B47D767D74C9B99DE3EF0987BA5B833C /* AppConfigure.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppConfigure.swift; path = SwiftyUIX/Classes/ViewModifires/AppConfigure.swift; sourceTree = "<group>"; };
+		B6BC1FF3CC5A8F96FA3D54B56F96DF2C /* ObservableObjectExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObservableObjectExtension.swift; path = SwiftyUIX/Classes/Extensions/ObservableObjectExtension.swift; sourceTree = "<group>"; };
+		B84E010D6601EAF56C221B30AE369566 /* WindowViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowViewController.swift; path = SwiftyUIX/Classes/ViewModifires/Drops/WindowViewController.swift; sourceTree = "<group>"; };
+		C0D2C18A191F5A1A549E38C65480AD60 /* DropView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropView.swift; path = SwiftyUIX/Classes/ViewModifires/Drops/DropView.swift; sourceTree = "<group>"; };
+		C11A75D1916E96B2E2F172A2E4CD20DD /* SwiftyUIX.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyUIX.h; path = SwiftyUIX/SwiftyUIX.h; sourceTree = "<group>"; };
+		C204D59551FC519B22094DC4F5A07C35 /* SwiftyUIX */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyUIX; path = SwiftyUIX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E22DFE17DC341B53EE6CDF679BEAED /* Pods-TipyUIX_swiftui-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TipyUIX_swiftui-acknowledgements.plist"; sourceTree = "<group>"; };
+		CFAB3A01DEDC5E2332C14C9C364637A7 /* DateExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateExtensions.swift; path = SwiftyUIX/Classes/Extensions/DateExtensions.swift; sourceTree = "<group>"; };
+		D1FE787EED53EBB7461AE904A10C9B73 /* Pods-TipyUIX_swiftui.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TipyUIX_swiftui.modulemap"; sourceTree = "<group>"; };
+		D23CD01C593A681C9C77781A98B3923F /* ViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewExtensions.swift; path = SwiftyUIX/Classes/Extensions/ViewExtensions.swift; sourceTree = "<group>"; };
+		D78CEB6EF61D6AC9CFD997BF333E13F3 /* ToolTipConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToolTipConfig.swift; path = TipyUIX/Classes/ToolTipConfig.swift; sourceTree = "<group>"; };
+		DBBE6D7588E2BD85896D588D00DA04CF /* ToolTipManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToolTipManager.swift; path = TipyUIX/Classes/ToolTipManager.swift; sourceTree = "<group>"; };
+		DF48CE48BFDDD730084F013CEFD34DA3 /* windowNavigationButtons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = windowNavigationButtons.swift; path = SwiftyUIX/Classes/Views/windowNavigationButtons.swift; sourceTree = "<group>"; };
+		E444DB204A8538E7CC4BED775CADBBAB /* Animator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animator.swift; path = SwiftyUIX/Classes/ViewModifires/Drops/Animator.swift; sourceTree = "<group>"; };
+		E477B8A5AA72293045972206CD0353C0 /* DataExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataExtensions.swift; path = SwiftyUIX/Classes/Extensions/DataExtensions.swift; sourceTree = "<group>"; };
+		E6147A32DE3C57E4F5735E8D1BDB9E07 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E6ECBA8CF9E1C37782CF0C3F1A0061BC /* Pods-TipyUIX_swiftui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TipyUIX_swiftui.release.xcconfig"; sourceTree = "<group>"; };
+		E762D63ED877A7B8E4BEDF5B0A3D6814 /* TipyUIX */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TipyUIX; path = TipyUIX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA08D11A032746A88DFB26AF1F55800D /* SwiftyUIX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyUIX.modulemap; sourceTree = "<group>"; };
+		EE44ED48DD04B515D473B08467C2A56D /* AnimationContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimationContext.swift; path = SwiftyUIX/Classes/ViewModifires/Drops/AnimationContext.swift; sourceTree = "<group>"; };
+		EFDE970E2FD8B9421C9FADE826024C17 /* BorderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BorderView.swift; path = SwiftyUIX/Classes/Views/BorderView.swift; sourceTree = "<group>"; };
+		F01DF95538F773A08B312FF5C4FC1E25 /* SwiftyUIX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyUIX.release.xcconfig; sourceTree = "<group>"; };
+		F8772A537883B17E00333CF94B61EA22 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/SwiftUI.framework; sourceTree = DEVELOPER_DIR; };
+		F9D7730D53B6BE2F1B513B5179F8A44C /* forceUpdateModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = forceUpdateModel.swift; path = SwiftyUIX/Classes/ViewModifires/ForceUpdate/forceUpdateModel.swift; sourceTree = "<group>"; };
+		FD944C5C056475DF04B6402AD9027A97 /* BlurBackgroundView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurBackgroundView.swift; path = SwiftyUIX/Classes/Views/BlurBackgroundView.swift; sourceTree = "<group>"; };
+		FDEE6D84D200B9C22C14E0D69E422626 /* Pods-TipyUIX_swiftui */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TipyUIX_swiftui"; path = Pods_TipyUIX_swiftui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B764CE525D6366CF9784C14B01E8B71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09AA19BABD2891343C8AFACC2DED9BBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85FDB07722D46C63FB93487D13266CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6872C7D39746233228391396F34B759E /* Foundation.framework in Frameworks */,
+				965897A53208514454D44D2CB31DD68D /* SwiftUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D7F4938B4809D0C31517FA33138222 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41B6DF03805587F90C4954B4711E663 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBC7D42ADF1364D2E913202396ABC9C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FA1C53F907EF3CAEF8573FD04417B24 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D8FF6A5161701C8DEE493C68BC4FB60 /* SwiftyUIX */ = {
+			isa = PBXGroup;
+			children = (
+				EE44ED48DD04B515D473B08467C2A56D /* AnimationContext.swift */,
+				E444DB204A8538E7CC4BED775CADBBAB /* Animator.swift */,
+				B47D767D74C9B99DE3EF0987BA5B833C /* AppConfigure.swift */,
+				FD944C5C056475DF04B6402AD9027A97 /* BlurBackgroundView.swift */,
+				7F1E95C4F34B176067656EDCC5E4C092 /* BlurView.swift */,
+				EFDE970E2FD8B9421C9FADE826024C17 /* BorderView.swift */,
+				66EC87AE79B0AD9A1EF39287F6A6B903 /* ButtonExtension.swift */,
+				21D89A9B16DB1173E70D8116AF25F11B /* ColorsExtensions.swift */,
+				E477B8A5AA72293045972206CD0353C0 /* DataExtensions.swift */,
+				CFAB3A01DEDC5E2332C14C9C364637A7 /* DateExtensions.swift */,
+				A7C0E3066E31DE931E2F0419E153415B /* Drop.swift */,
+				79B22033A7D57E0C5DDE4BB9F1226D7C /* Drops.swift */,
+				C0D2C18A191F5A1A549E38C65480AD60 /* DropView.swift */,
+				536C5946A0F00651C018549BB7F06AD7 /* firebaseExtensions.swift */,
+				F9D7730D53B6BE2F1B513B5179F8A44C /* forceUpdateModel.swift */,
+				3E389C1817FCE7D3276734B7A944E3E7 /* ForceUpdateView.swift */,
+				45B26DB8CE6F200423576512C74D7748 /* ForceUpdateViewController.swift */,
+				0DEB5725DA2F8E8F2A6017A207F52AD5 /* HapticFeedbackManager.swift */,
+				62A957BFDDC48421F59EEED6D9AE152A /* HTMLWebView.swift */,
+				5050B0C57A9F521A7B6B7972B617C0A5 /* Logs.swift */,
+				6C667AD074E1AB926A98DBFF0E8BDC8B /* NotificationExtension.swift */,
+				B6BC1FF3CC5A8F96FA3D54B56F96DF2C /* ObservableObjectExtension.swift */,
+				9C65C11F572A9DFB5B329C170D0859B1 /* PassthroughView.swift */,
+				0C1B3DED06BD1AB78BB21851258BCB41 /* PassthroughWindow.swift */,
+				1A77D0E14905764E6F1B9613B48C90AA /* Presenter.swift */,
+				72162861D7F9E2FBC292B36F948DF7A4 /* RealmExtensions.swift */,
+				C11A75D1916E96B2E2F172A2E4CD20DD /* SwiftyUIX.h */,
+				01AC4E27E77A4CF3AC76F89FA146F0E4 /* ThreadExtensions.swift */,
+				6C9A9DE6A4C6DFE897E6C39EE7996F48 /* TransprantBackgroud.swift */,
+				2B48A1AEDF25CF09A21C0B8821C9B32A /* UIApplicationExtension.swift */,
+				80627008A9DE7D7ECB3A1FB8BEACC351 /* UIdeviceExtensions.swift */,
+				0B9FDFFF2D2B59F9FF76B450AD530CD4 /* UIscreenExtensions.swift */,
+				43EE2FA5F45F5A7BD4D16CE6E24E7251 /* UIViewControllerExtension.swift */,
+				D23CD01C593A681C9C77781A98B3923F /* ViewExtensions.swift */,
+				755E2696C8511D27993F6B3817371639 /* Weak.swift */,
+				661FE872A2783BFF187999A97CE90994 /* WindowExtensions.swift */,
+				DF48CE48BFDDD730084F013CEFD34DA3 /* windowNavigationButtons.swift */,
+				B84E010D6601EAF56C221B30AE369566 /* WindowViewController.swift */,
+				53E1A09D337F796B5CD120434939B291 /* Support Files */,
+			);
+			name = SwiftyUIX;
+			path = SwiftyUIX;
+			sourceTree = "<group>";
+		};
+		1FEBF077A6FFDA4A791D3FFDB7952E8C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D8FF6A5161701C8DEE493C68BC4FB60 /* SwiftyUIX */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		32A4D7E091DFFDD386D7823CB7758EF6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E6147A32DE3C57E4F5735E8D1BDB9E07 /* LICENSE */,
+				5E339C36474263AD5F0165117074D497 /* README.md */,
+				49E16D0F38C31809FF40F54AE8F6C107 /* TipyUIX.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		53E1A09D337F796B5CD120434939B291 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA08D11A032746A88DFB26AF1F55800D /* SwiftyUIX.modulemap */,
+				8AA35B5CB69B05EF86A257898AB00B8E /* SwiftyUIX-dummy.m */,
+				4DC1B1FF6ED092EA5D875F6E9CFF052F /* SwiftyUIX-Info.plist */,
+				85362A4BB57565DCE773EF2F87ABD1DE /* SwiftyUIX-prefix.pch */,
+				7C95A49C5B4664A3CF7444DB3DB79C0B /* SwiftyUIX-umbrella.h */,
+				9233EB218F606BAB7E79FCB622BE3606 /* SwiftyUIX.debug.xcconfig */,
+				F01DF95538F773A08B312FF5C4FC1E25 /* SwiftyUIX.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyUIX";
+			sourceTree = "<group>";
+		};
+		6FA1C53F907EF3CAEF8573FD04417B24 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3C5B6CBB46A3379AF0A785C6035303B4 /* Foundation.framework */,
+				F8772A537883B17E00333CF94B61EA22 /* SwiftUI.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7961456457C6AFAD69B16320677C95DC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFD78B035D4B0153A0E1B8139A452A6E /* TipyUIX */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		AABAF9D86403FFAE5B82A034FCBF4BC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDEE6D84D200B9C22C14E0D69E422626 /* Pods-TipyUIX_swiftui */,
+				C204D59551FC519B22094DC4F5A07C35 /* SwiftyUIX */,
+				E762D63ED877A7B8E4BEDF5B0A3D6814 /* TipyUIX */,
+				4A09596BBF3AD63A0EBDD9D7FB13B3CA /* TipyUIX-TipyUIXAssets */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB7C6077D40A2750572C78B143AB6882 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B11474CEDB514967074843D1E986A269 /* Pods-TipyUIX_swiftui */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B11474CEDB514967074843D1E986A269 /* Pods-TipyUIX_swiftui */ = {
+			isa = PBXGroup;
+			children = (
+				D1FE787EED53EBB7461AE904A10C9B73 /* Pods-TipyUIX_swiftui.modulemap */,
+				139862725BE584C2E4DC3E5F575233D6 /* Pods-TipyUIX_swiftui-acknowledgements.markdown */,
+				C8E22DFE17DC341B53EE6CDF679BEAED /* Pods-TipyUIX_swiftui-acknowledgements.plist */,
+				19EA4AB5AFD51346943C67391ACB1913 /* Pods-TipyUIX_swiftui-dummy.m */,
+				5269395D2F233698A82534717211849D /* Pods-TipyUIX_swiftui-frameworks.sh */,
+				51E9C0B9D7FE29E7C3FBABB28F31BACE /* Pods-TipyUIX_swiftui-Info.plist */,
+				1AAAD54651E1E3238431EB1DA284BF67 /* Pods-TipyUIX_swiftui-umbrella.h */,
+				5CE6F9628054C6E3BD95560D3E8879F8 /* Pods-TipyUIX_swiftui.debug.xcconfig */,
+				E6ECBA8CF9E1C37782CF0C3F1A0061BC /* Pods-TipyUIX_swiftui.release.xcconfig */,
+			);
+			name = "Pods-TipyUIX_swiftui";
+			path = "Target Support Files/Pods-TipyUIX_swiftui";
+			sourceTree = "<group>";
+		};
+		C0842530BCF0E433B0A0F7D3E92BBEF0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				385934377A0DB868E107084056BDD189 /* ResourceBundle-TipyUIXAssets-TipyUIX-Info.plist */,
+				173BB3C9A67296C88DD6AD38CAB3966E /* TipyUIX.modulemap */,
+				1969C810CA1E947ED65C6882688B3D6B /* TipyUIX-dummy.m */,
+				953A2D5279D19F560A6874605E030D7D /* TipyUIX-Info.plist */,
+				8D6ABF556D766C8B3454004354B5C43F /* TipyUIX-prefix.pch */,
+				4A447452D1F911B78A1404DF4425179B /* TipyUIX-umbrella.h */,
+				93381D2F9E191FAD3D8D828FE150BCA9 /* TipyUIX.debug.xcconfig */,
+				1F24A3276A9A4EA5A3ACAD4E77E05F58 /* TipyUIX.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TipyUIX";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7961456457C6AFAD69B16320677C95DC /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				1FEBF077A6FFDA4A791D3FFDB7952E8C /* Pods */,
+				AABAF9D86403FFAE5B82A034FCBF4BC6 /* Products */,
+				AB7C6077D40A2750572C78B143AB6882 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		FFD78B035D4B0153A0E1B8139A452A6E /* TipyUIX */ = {
+			isa = PBXGroup;
+			children = (
+				D78CEB6EF61D6AC9CFD997BF333E13F3 /* ToolTipConfig.swift */,
+				A7D0DF46FCB1DA156497123C1A8D50BA /* TooltipDataModel.swift */,
+				DBBE6D7588E2BD85896D588D00DA04CF /* ToolTipManager.swift */,
+				98E2C94CFBD6BE24A5E315A5C5A4A089 /* ToolTipView.swift */,
+				32A4D7E091DFFDD386D7823CB7758EF6 /* Pod */,
+				C0842530BCF0E433B0A0F7D3E92BBEF0 /* Support Files */,
+			);
+			name = TipyUIX;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1615F6E1A8ED0B7A5E3ADF2E6E32E323 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99987DDC93FE3AC44B830FCE4B467A9A /* SwiftyUIX.h in Headers */,
+				C46CA3B2F5F02D6069EB4341BBC24236 /* SwiftyUIX-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F38EEC7132BDBF7CA61BD48ABDB139B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3EB43764B0DEB33C2415E0A18D7A770 /* TipyUIX-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5E6171978B06EBA9C13A090E478AC2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6827EFAE2F8159006332085B81535B8B /* Pods-TipyUIX_swiftui-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8825E5BDAD447AF41F413B6CA0ABD1E0 /* SwiftyUIX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5444CA500BA77895B1EAECB93B19925 /* Build configuration list for PBXNativeTarget "SwiftyUIX" */;
+			buildPhases = (
+				1615F6E1A8ED0B7A5E3ADF2E6E32E323 /* Headers */,
+				80EBE0893E33218354D28CFDF83C8DA8 /* Sources */,
+				4B764CE525D6366CF9784C14B01E8B71 /* Frameworks */,
+				F752A2235CA628A1BF2552558B57CCC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyUIX;
+			productName = SwiftyUIX;
+			productReference = C204D59551FC519B22094DC4F5A07C35 /* SwiftyUIX */;
+			productType = "com.apple.product-type.framework";
+		};
+		A4A41E906AE18E21D8F2D01DAD43F35C /* TipyUIX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BABB7982DBAF001C3AE7CD20B15F3958 /* Build configuration list for PBXNativeTarget "TipyUIX" */;
+			buildPhases = (
+				1F38EEC7132BDBF7CA61BD48ABDB139B /* Headers */,
+				7E2D4F2F059E0035A358639BE6DD1A6A /* Sources */,
+				85FDB07722D46C63FB93487D13266CB6 /* Frameworks */,
+				1C0DBF541CBD3697093AF483B271DFB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE54B82D451061259FAB2A3DDC57C736 /* PBXTargetDependency */,
+				4060ABA5F76F288837D52B8EA9EF1ED4 /* PBXTargetDependency */,
+			);
+			name = TipyUIX;
+			productName = TipyUIX;
+			productReference = E762D63ED877A7B8E4BEDF5B0A3D6814 /* TipyUIX */;
+			productType = "com.apple.product-type.framework";
+		};
+		C391EB12691CF4EC5DC8F0EFA8C625ED /* TipyUIX-TipyUIXAssets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E38A8B5E1DA2A7804AE4E418382B6B3F /* Build configuration list for PBXNativeTarget "TipyUIX-TipyUIXAssets" */;
+			buildPhases = (
+				1A6297FF3758CAE3CA978CFBEF7262D6 /* Sources */,
+				CBC7D42ADF1364D2E913202396ABC9C7 /* Frameworks */,
+				4822E833D79D66756151664AFC0317DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TipyUIX-TipyUIXAssets";
+			productName = TipyUIXAssets;
+			productReference = 4A09596BBF3AD63A0EBDD9D7FB13B3CA /* TipyUIX-TipyUIXAssets */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D8CB8C0EC939CBA5C2B3898EC24CEEDC /* Pods-TipyUIX_swiftui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9201280473811440124A6C16168A5209 /* Build configuration list for PBXNativeTarget "Pods-TipyUIX_swiftui" */;
+			buildPhases = (
+				EA5E6171978B06EBA9C13A090E478AC2 /* Headers */,
+				8E30546965756B88DB3555DFE5B64211 /* Sources */,
+				98D7F4938B4809D0C31517FA33138222 /* Frameworks */,
+				ACFD24FB1A9F171D7F902DC5D6D01CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FF6D4588BC8A0684C8A9E70DC3E6ABE /* PBXTargetDependency */,
+				16AD5D2D4B2BDEEAC4FF05D8EBDAC2E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-TipyUIX_swiftui";
+			productName = Pods_TipyUIX_swiftui;
+			productReference = FDEE6D84D200B9C22C14E0D69E422626 /* Pods-TipyUIX_swiftui */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AABAF9D86403FFAE5B82A034FCBF4BC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8CB8C0EC939CBA5C2B3898EC24CEEDC /* Pods-TipyUIX_swiftui */,
+				8825E5BDAD447AF41F413B6CA0ABD1E0 /* SwiftyUIX */,
+				A4A41E906AE18E21D8F2D01DAD43F35C /* TipyUIX */,
+				C391EB12691CF4EC5DC8F0EFA8C625ED /* TipyUIX-TipyUIXAssets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C0DBF541CBD3697093AF483B271DFB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328CDA2C4254A489DE44890CEFBCC494 /* TipyUIX-TipyUIXAssets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4822E833D79D66756151664AFC0317DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACFD24FB1A9F171D7F902DC5D6D01CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F752A2235CA628A1BF2552558B57CCC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A6297FF3758CAE3CA978CFBEF7262D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2D4F2F059E0035A358639BE6DD1A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8AE2A1587B7126F9CCB6BF9085B9D5 /* TipyUIX-dummy.m in Sources */,
+				9371C99F95D8CCABDF09D65D0C986EC9 /* ToolTipConfig.swift in Sources */,
+				BC37FCEFD4BDEDEE41D0BD3B8A2CAAC5 /* TooltipDataModel.swift in Sources */,
+				66B2BC04D6A49C3B1813B4C0D8F3B15D /* ToolTipManager.swift in Sources */,
+				CC0AE1435EDA0738A1221C04BCBCA990 /* ToolTipView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80EBE0893E33218354D28CFDF83C8DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E6FAC7E897097EB75B0F5E09CE85634 /* AnimationContext.swift in Sources */,
+				C7CEB74A877262625A494B3A4910D7D1 /* Animator.swift in Sources */,
+				3C8939D9E54735C2B6D8011053AE15FC /* AppConfigure.swift in Sources */,
+				299303D887EF2D886AA31D88F65DC310 /* BlurBackgroundView.swift in Sources */,
+				30232BBBDBF5F3CF37E6B55282C5AB3A /* BlurView.swift in Sources */,
+				57B9B5DB74F5942A2EDB4597EFD27388 /* BorderView.swift in Sources */,
+				4B8BD950A729B5E2937E72959D635FB4 /* ButtonExtension.swift in Sources */,
+				9344562ED5944A9A7D08EEDB670CC639 /* ColorsExtensions.swift in Sources */,
+				E2FF2E04A55CE8040672ACD23B20E54A /* DataExtensions.swift in Sources */,
+				54C35F9730D7DB7D20CD63B5E52BD3E9 /* DateExtensions.swift in Sources */,
+				5CB436B08BB571900D7E0EE905DD95C5 /* Drop.swift in Sources */,
+				E45AC493FC21E4CA44A2D045CAC97DE8 /* Drops.swift in Sources */,
+				C8C2BDEA1B1A716E87A807B7B6DC4E71 /* DropView.swift in Sources */,
+				ADA97B3E5B25F65813783A96827D1DEE /* firebaseExtensions.swift in Sources */,
+				09AF5F28328F1B2C471AC11A0551C7FB /* forceUpdateModel.swift in Sources */,
+				F69F2CA2BF8B2337161FEE3FFB1B5C35 /* ForceUpdateView.swift in Sources */,
+				F0C7EB65FAEE974CFC0E3213853948BF /* ForceUpdateViewController.swift in Sources */,
+				97AF514FAC2C86A0D88A7E5E21581BCB /* HapticFeedbackManager.swift in Sources */,
+				5CD82FA1F2B21D4E9D5C1256807B7C19 /* HTMLWebView.swift in Sources */,
+				F567B89418DDAC0F73B599F5698F2A82 /* Logs.swift in Sources */,
+				D8CA6874B7B5F04D75950C26E6B7E86E /* NotificationExtension.swift in Sources */,
+				8FEB50B01AC3DB3598A56F1E3E194E28 /* ObservableObjectExtension.swift in Sources */,
+				54F62431BC454B0649D1E49D04F04450 /* PassthroughView.swift in Sources */,
+				6CD26CAE7D407BC49923FB6E676D5100 /* PassthroughWindow.swift in Sources */,
+				B6B6F81CC4403A9B77F1F769CF8A7CA9 /* Presenter.swift in Sources */,
+				48DBFF9E0BCDA5461D321889F2904741 /* RealmExtensions.swift in Sources */,
+				9D72635753B1C318F56D8CB2DA407EC0 /* SwiftyUIX-dummy.m in Sources */,
+				BD9B5DCE4AF13B89D4FE9E095436E778 /* ThreadExtensions.swift in Sources */,
+				BF2EF77032A74F7AE13B1D1D88EEA043 /* TransprantBackgroud.swift in Sources */,
+				B01E5780552217755803EC5BA0948F32 /* UIApplicationExtension.swift in Sources */,
+				8383EB60310F308740A399CCF0DFEB38 /* UIdeviceExtensions.swift in Sources */,
+				A6F45E7CF765E599107D6DF5E980964A /* UIscreenExtensions.swift in Sources */,
+				5F723F4F86D4E61C649CD2E4755B6801 /* UIViewControllerExtension.swift in Sources */,
+				E7AEAEC95758DA55A6AA9B0C23E62800 /* ViewExtensions.swift in Sources */,
+				2B49568DBF3F501902F1B5780798BBBD /* Weak.swift in Sources */,
+				DA66B4158E3E74B52950B1F7EFEC3842 /* WindowExtensions.swift in Sources */,
+				A5DBE03333748FD556B71886DAE7F4E1 /* windowNavigationButtons.swift in Sources */,
+				C36A780BA0E394AE6FEE2211727DADF3 /* WindowViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E30546965756B88DB3555DFE5B64211 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A01C77E23421FD1F26300EFB7F71627 /* Pods-TipyUIX_swiftui-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16AD5D2D4B2BDEEAC4FF05D8EBDAC2E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TipyUIX;
+			target = A4A41E906AE18E21D8F2D01DAD43F35C /* TipyUIX */;
+			targetProxy = 01947025BD4CA21FF124F275BD064F30 /* PBXContainerItemProxy */;
+		};
+		4060ABA5F76F288837D52B8EA9EF1ED4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TipyUIX-TipyUIXAssets";
+			target = C391EB12691CF4EC5DC8F0EFA8C625ED /* TipyUIX-TipyUIXAssets */;
+			targetProxy = AF8A9C1525C40DF0BA49AEBD97E0AD15 /* PBXContainerItemProxy */;
+		};
+		4FF6D4588BC8A0684C8A9E70DC3E6ABE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyUIX;
+			target = 8825E5BDAD447AF41F413B6CA0ABD1E0 /* SwiftyUIX */;
+			targetProxy = 9D77B2651A452701E94D245042F263DD /* PBXContainerItemProxy */;
+		};
+		DE54B82D451061259FAB2A3DDC57C736 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyUIX;
+			target = 8825E5BDAD447AF41F413B6CA0ABD1E0 /* SwiftyUIX */;
+			targetProxy = B7D4E44CB2D585542BC2FE7056696F26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D3FB198F555B4A55CF682AC67C9888D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9233EB218F606BAB7E79FCB622BE3606 /* SwiftyUIX.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyUIX/SwiftyUIX-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SwiftyUIX/SwiftyUIX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyUIX/SwiftyUIX.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyUIX;
+				PRODUCT_NAME = SwiftyUIX;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A9A3F5ED2D016D5B154067F98975F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01DF95538F773A08B312FF5C4FC1E25 /* SwiftyUIX.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyUIX/SwiftyUIX-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SwiftyUIX/SwiftyUIX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyUIX/SwiftyUIX.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyUIX;
+				PRODUCT_NAME = SwiftyUIX;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1FF3BE4AB3D0C0A434652DAA750AA42C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6ECBA8CF9E1C37782CF0C3F1A0061BC /* Pods-TipyUIX_swiftui.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-TipyUIX_swiftui/Pods-TipyUIX_swiftui-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TipyUIX_swiftui/Pods-TipyUIX_swiftui.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2CD5BD8DCBD16EBCF4044C03751101CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93381D2F9E191FAD3D8D828FE150BCA9 /* TipyUIX.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TipyUIX";
+				IBSC_MODULE = TipyUIX;
+				INFOPLIST_FILE = "Target Support Files/TipyUIX/ResourceBundle-TipyUIXAssets-TipyUIX-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_NAME = TipyUIXAssets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6A2B8038054E1537D39E229B1AB3CA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		77729B311DD4A18967B7285D01F32D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F24A3276A9A4EA5A3ACAD4E77E05F58 /* TipyUIX.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/TipyUIX/TipyUIX-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/TipyUIX/TipyUIX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TipyUIX/TipyUIX.modulemap";
+				PRODUCT_MODULE_NAME = TipyUIX;
+				PRODUCT_NAME = TipyUIX;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		993A509047880F10DC69457E56730F6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93381D2F9E191FAD3D8D828FE150BCA9 /* TipyUIX.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/TipyUIX/TipyUIX-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/TipyUIX/TipyUIX-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TipyUIX/TipyUIX.modulemap";
+				PRODUCT_MODULE_NAME = TipyUIX;
+				PRODUCT_NAME = TipyUIX;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A56B1B0057300FC9EF94058209D60A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B4AE12562AF5838A75D99B02D210E085 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F24A3276A9A4EA5A3ACAD4E77E05F58 /* TipyUIX.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TipyUIX";
+				IBSC_MODULE = TipyUIX;
+				INFOPLIST_FILE = "Target Support Files/TipyUIX/ResourceBundle-TipyUIXAssets-TipyUIX-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				PRODUCT_NAME = TipyUIXAssets;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F8337A960829864B5886FC122CD5EF5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE6F9628054C6E3BD95560D3E8879F8 /* Pods-TipyUIX_swiftui.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-TipyUIX_swiftui/Pods-TipyUIX_swiftui-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TipyUIX_swiftui/Pods-TipyUIX_swiftui.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A56B1B0057300FC9EF94058209D60A9D /* Debug */,
+				6A2B8038054E1537D39E229B1AB3CA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9201280473811440124A6C16168A5209 /* Build configuration list for PBXNativeTarget "Pods-TipyUIX_swiftui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8337A960829864B5886FC122CD5EF5F /* Debug */,
+				1FF3BE4AB3D0C0A434652DAA750AA42C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BABB7982DBAF001C3AE7CD20B15F3958 /* Build configuration list for PBXNativeTarget "TipyUIX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993A509047880F10DC69457E56730F6A /* Debug */,
+				77729B311DD4A18967B7285D01F32D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E38A8B5E1DA2A7804AE4E418382B6B3F /* Build configuration list for PBXNativeTarget "TipyUIX-TipyUIXAssets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CD5BD8DCBD16EBCF4044C03751101CF /* Debug */,
+				B4AE12562AF5838A75D99B02D210E085 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5444CA500BA77895B1EAECB93B19925 /* Build configuration list for PBXNativeTarget "SwiftyUIX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D3FB198F555B4A55CF682AC67C9888D /* Debug */,
+				1A9A3F5ED2D016D5B154067F98975F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

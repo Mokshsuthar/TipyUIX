@@ -1,0 +1,23 @@
+PODS:
+  - SwiftyUIX (1.0.5)
+  - TipyUIX (0.1.0):
+    - SwiftyUIX
+
+DEPENDENCIES:
+  - TipyUIX (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SwiftyUIX
+
+EXTERNAL SOURCES:
+  TipyUIX:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftyUIX: 211948d501f923d51bc99086e892e42e4ad72db9
+  TipyUIX: 18f1749b932aeae725267fe73dd7adef47665a29
+
+PODFILE CHECKSUM: 5178aade464169f86d3c8add4809ba8d41424c74
+
+COCOAPODS: 1.16.2

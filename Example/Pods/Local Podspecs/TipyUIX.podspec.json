@@ -1,0 +1,36 @@
+{
+  "name": "TipyUIX",
+  "version": "0.1.0",
+  "summary": "A SwiftUI library for enhanced UI components.",
+  "description": "TipyUIX provides custom SwiftUI views and UI components to enhance your app design.",
+  "homepage": "https://github.com/yourusername/TipyUIX",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Your Name": "your.email@example.com"
+  },
+  "source": {
+    "git": "https://github.com/yourusername/TipyUIX.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.0",
+  "platforms": {
+    "ios": "16.5"
+  },
+  "source_files": [
+    "TipyUIX/**/*.swift",
+    "TipyUIX/**/*.xcassets"
+  ],
+  "frameworks": "SwiftUI",
+  "resource_bundles": {
+    "TipyUIXAssets": [
+      "TipyUIX/*.xcassets"
+    ]
+  },
+  "dependencies": {
+    "SwiftyUIX": []
+  },
+  "swift_version": "5.0"
+}
